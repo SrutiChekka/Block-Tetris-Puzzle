@@ -218,7 +218,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 2.5
+  playSpaceDistanceY: 5
 --- !u!60 &39928179
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -376,7 +377,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &706203894
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,7 +507,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &736170743
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +636,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &770829808
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,7 +764,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &784805310
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +778,7 @@ GameObject:
   m_Layer: 0
   m_Name: Playspace
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -917,7 +922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &883536915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,7 +1051,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1047949262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,7 +1181,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1062119119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,7 +1359,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1206710640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,7 +1489,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1246201061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,7 +1618,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 10
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1305250941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1737,7 +1748,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1327705633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,7 +1942,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1473654745
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,7 +2252,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1631494734
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,7 +2382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1638945391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2579,7 +2594,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1825230280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2706,7 +2722,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5
 --- !u!1 &1832899193
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,4 +2854,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSpace: {fileID: 784805310}
-  playSpaceDistance: 0.5
+  playSpaceDistanceX: 0.5
+  playSpaceDistanceY: 5

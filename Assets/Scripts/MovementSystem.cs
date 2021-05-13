@@ -12,7 +12,8 @@ public class MovementSystem : MonoBehaviour
 
     private Vector2 resetPos;
 
-    public float playSpaceDistance = 0.5f;
+    public float playSpaceDistanceX = 0.5f;
+    public float playSpaceDistanceY = 0.5f;
 
      void Start()
     {
@@ -50,8 +51,8 @@ public class MovementSystem : MonoBehaviour
     {
         isMoving = false;
 
-        if(Mathf.Abs(this.transform.position.x - playSpace.transform.position.x) <= playSpaceDistance &&
-            Mathf.Abs(this.transform.position.y - playSpace.transform.position.y) <= playSpaceDistance)
+        if(Mathf.Abs(this.transform.position.x - playSpace.transform.position.x) <= playSpaceDistanceX &&
+            Mathf.Abs(this.transform.position.y - playSpace.transform.position.y) <= playSpaceDistanceY)
         {
             Vector2 mousePos;
             mousePos = Input.mousePosition;
@@ -65,5 +66,5 @@ public class MovementSystem : MonoBehaviour
             this.transform.position = new Vector2(resetPos.x, resetPos.y);
         }
     }
-  
+
 }
