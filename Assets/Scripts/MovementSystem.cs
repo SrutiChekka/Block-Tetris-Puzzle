@@ -50,15 +50,12 @@ public class MovementSystem : MonoBehaviour
     private void OnMouseUp()
     {
         isMoving = false;
+        //this.transform.position = new Vector2(resetPos.x, resetPos.y);
 
         if(Mathf.Abs(this.transform.position.x - playSpace.transform.position.x) <= playSpaceDistanceX &&
             Mathf.Abs(this.transform.position.y - playSpace.transform.position.y) <= playSpaceDistanceY)
         {
-            Vector2 mousePos;
-            mousePos = Input.mousePosition;
-            mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-
-            this.transform.position = new Vector2(mousePos.x, mousePos.y);
+            this.transform.position = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y);
         }
 
         else
