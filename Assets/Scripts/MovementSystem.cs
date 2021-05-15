@@ -20,6 +20,7 @@ public class MovementSystem : MonoBehaviour
      void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
         resetPos = this.transform.position;
     }
 
@@ -58,11 +59,15 @@ public class MovementSystem : MonoBehaviour
             Mathf.Abs(this.transform.position.y - playSpace.transform.position.y) <= playSpaceDistanceY)
         {
             this.transform.position = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y);
+
+            rb2D.constraints = RigidbodyConstraints2D.None;
         }
 
         else
         {
             this.transform.position = new Vector2(resetPos.x, resetPos.y);
+            rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
+
         }
     }
 }
