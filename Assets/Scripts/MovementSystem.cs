@@ -15,8 +15,11 @@ public class MovementSystem : MonoBehaviour
     public float playSpaceDistanceX = 0.5f;
     public float playSpaceDistanceY = 0.5f;
 
+    private Rigidbody2D rb2D;
+
      void Start()
     {
+        rb2D = GetComponent<Rigidbody2D>();
         resetPos = this.transform.position;
     }
 
@@ -50,7 +53,6 @@ public class MovementSystem : MonoBehaviour
     private void OnMouseUp()
     {
         isMoving = false;
-        //this.transform.position = new Vector2(resetPos.x, resetPos.y);
 
         if(Mathf.Abs(this.transform.position.x - playSpace.transform.position.x) <= playSpaceDistanceX &&
             Mathf.Abs(this.transform.position.y - playSpace.transform.position.y) <= playSpaceDistanceY)
@@ -63,5 +65,4 @@ public class MovementSystem : MonoBehaviour
             this.transform.position = new Vector2(resetPos.x, resetPos.y);
         }
     }
-
 }

@@ -6,6 +6,7 @@ public class Playspace : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.attachedRigidbody.AddForce(new Vector2(0, 5));
+        Debug.Log("Works!");
+        collision.transform.Translate(Vector2.down);
     }
 }

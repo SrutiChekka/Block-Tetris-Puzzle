@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!60 &39928179
@@ -322,7 +322,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388924589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.4, z: 0}
+  m_LocalPosition: {x: 0, y: -4.36, z: 0}
   m_LocalScale: {x: 24.77, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &513903171
@@ -612,7 +612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &706203899
@@ -764,7 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &736170748
@@ -914,7 +914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &770829813
@@ -938,37 +938,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 5
---- !u!1 &784805310
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 784805312}
-  m_Layer: 0
-  m_Name: Playspace
-  m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &784805312
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784805310}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1717108043}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &842159444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,7 +1064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &842159449
@@ -1247,7 +1216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &883536920
@@ -1401,7 +1370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1047949267
@@ -1603,7 +1572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1149739974
@@ -1757,7 +1726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1206710645
@@ -1909,7 +1878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1246201066
@@ -2063,7 +2032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1305250946
@@ -2279,7 +2248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1438646286
@@ -2612,7 +2581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1628234137
@@ -2766,7 +2735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1631494739
@@ -2882,8 +2851,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1717108043}
   - component: {fileID: 1717108044}
+  - component: {fileID: 1717108046}
+  - component: {fileID: 1717108045}
   m_Layer: 0
-  m_Name: Playspace Square
+  m_Name: 'Playspace '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2898,10 +2869,10 @@ Transform:
   m_GameObject: {fileID: 1717108042}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.07, y: 0, z: 0}
-  m_LocalScale: {x: 5.7375, y: 7.6589, z: 1}
+  m_LocalScale: {x: 6, y: 8, z: 1}
   m_Children: []
-  m_Father: {fileID: 784805312}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1717108044
 SpriteRenderer:
@@ -2941,9 +2912,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: bef9b4656967c314c9a084beb7b4bb78, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.078431375}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.3137255}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2953,6 +2924,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1717108045
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717108042}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1717108046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717108042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbe48e482a6b5ce409108d6afcf3d25f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1720096673
 GameObject:
   m_ObjectHideFlags: 0
@@ -3083,7 +3092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1720096678
@@ -3233,7 +3242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1825230285
@@ -3391,7 +3400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f638f8e99be6342a88176d05494df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpace: {fileID: 784805310}
+  playSpace: {fileID: 1717108042}
   playSpaceDistanceX: 2.5
   playSpaceDistanceY: 5
 --- !u!50 &1832899198
